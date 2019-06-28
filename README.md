@@ -1,4 +1,4 @@
-# Nuxt sparing center
+# 100vh
 
 [![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/SparingSoftware/nuxt-sparing-center/blob/master/LICENSE)
 [![Downloads number](https://img.shields.io/npm/dt/@sparing-software/100vh.svg)](https://www.npmjs.com/package/@sparing-software/100vh)
