@@ -1,0 +1,26 @@
+{
+  "name": "@sparing-software/100vh",
+  "version": "1.0.0",
+  "description": "Lightweight JS package for easy overcoming the problem with 100vh on mobile devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparingSoftware/100vh.git"
+  },
+  "keywords": [
+    "js",
+    "100vh",
+    "module",
+    "package",
+    "mobile"
+  ],
+  "author": "SparingSoftware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SparingSoftware/100vh/issues"
+  },
+  "homepage": "https://github.com/SparingSoftware/100vh#readme"
+}
