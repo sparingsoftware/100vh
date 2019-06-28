@@ -1,6 +1,6 @@
 {
   "name": "@sparing-software/100vh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight JS package for easy overcoming the problem with 100vh on mobile devices",
   "main": "index.js",
   "scripts": {
