@@ -43,6 +43,7 @@ function main (width, height, e) {
     if (!isMobile() || changedOrientation || changedOrientation === undefined) {
       var calculatedHeight = changedOrientation ? width : height
       document.documentElement.style.setProperty('--vh', `${calculatedHeight}px`)
+      window.vh = calculatedHeight
     }
   })
 }
