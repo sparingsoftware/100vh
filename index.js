@@ -6,7 +6,7 @@
 function isMobile () {
   var check = false;
   (function (a) {
-    if (/(android|webOS|ip(hone|ad|od)|blackberry|windows phone)/i.test(a.substr(0, 4))) check = true
+    if (/(android|webOS|ip(hone|ad|od)|blackberry|windows phone)/i.test(a)) check = true
   })(navigator.userAgent || navigator.vendor || window.opera)
   return check
 }
