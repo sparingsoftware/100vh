@@ -25,7 +25,7 @@ function onResize (cb) {
   // Add resize listeners
   window.addEventListener('resize', handler)
   if (screen.orientation) {
-  screen.orientation.addEventListener('change', handler)
+    screen.orientation.addEventListener('change', handler)
   } else {
     window.addEventListener('orientationchange', handler)
   }
@@ -33,6 +33,7 @@ function onResize (cb) {
   // Immediately execute the resize handler
   handler()
 }
+
 
 /**
  * Main execution function
