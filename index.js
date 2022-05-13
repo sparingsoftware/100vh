@@ -24,12 +24,15 @@ function onResize (cb) {
 
   // Add resize listeners
   window.addEventListener('resize', handler)
+  if (screen.orientation) {
   screen.orientation.addEventListener('change', handler)
+  } else {
+    window.addEventListener('orientationchange', handler)
+  }
 
   // Immediately execute the resize handler
   handler()
 }
-
 
 /**
  * Main execution function
@@ -38,7 +41,8 @@ function onResize (cb) {
  */
 function main (width, height, e) {
   requestAnimationFrame(function () {
-    var changedOrientation = e && e.type === 'change'
+    var eventType = screen.orientation ? 'change' : 'orientationchange';
+    var changedOrientation = e && e.type === eventType
 
     if (!isMobile() || changedOrientation || changedOrientation === undefined) {
       var calculatedHeight = changedOrientation ? width : height
