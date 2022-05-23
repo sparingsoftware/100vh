@@ -1,4 +1,3 @@
-init()
 /**
  * Check if device is mobile
  *
@@ -31,7 +30,7 @@ function onResize(cb) {
     window.addEventListener('orientationchange', handler)
   }
   // Immediately execute the resize handler
-  handler(null)
+  handler()
 }
 
 /**
