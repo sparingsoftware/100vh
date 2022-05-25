@@ -56,3 +56,5 @@ function main(width, height, e) {
 function init() {
   onResize(main)
 }
+
+export default { init }
